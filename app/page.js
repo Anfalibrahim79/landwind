@@ -161,7 +161,7 @@ export default function Home() {
       </section>
       {/*Testimoni Section */}
       <section className='h-[426px]'>
-        <div className='w-full py-24 flex flex-col items-center justify-center text-center'>
+        <div className='w-full my-24 py-24 flex flex-col items-center justify-center text-center'>
           <h3 className='text-2xl font-semibold leading-[162.5%] text-text-primary'>&quot;Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application.&quot;</h3>
           <div className='flex gap-2 items-center mt-7'>
             <Image src={'/avatar1.png'} width={24} height={24} alt='avatar1' className='' />
