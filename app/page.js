@@ -136,7 +136,7 @@ export default function Home() {
             </div>
           </div>
           <div className='flex-1 '>
-            <div className='flex flex-wrap gap-8'>
+            <div className='min-w-full flex flex-wrap'>
               <div className='w-[256px]'>
                 <Image src={'/server.png'} width={48} height={48} alt='icons' className='mb-4' />
                 <h3 className='text-2xl font-bold leading-[125%] text-text-primary mb-2'>99.99% uptime</h3>
