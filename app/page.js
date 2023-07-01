@@ -177,7 +177,165 @@ export default function Home() {
       {/*pricing Section */}
       <section>
         <div className='p-24 h-[920px]'>
-
+          <div className='flex flex-col items-center gap-4 mb-12'>
+            <h2 className='text-4xl font-extrabold leading-[125%] -tracking-[0.36px] text-text-primary'>Pay as you grow</h2>
+            <p className='text-xl font-normal leading-[150%] text-text-secondary w-[768px] text-center'>Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
+          </div>
+          <div className='flex justify-between'>
+            <div className='w-[400px] border border-gray-200 rounded-lg shadow-md'>
+              <div className='p-8'>
+                <div className='text-center flex flex-col gap-8'>
+                  <div>
+                    <h2 className='text-2xl font-semibold leading-[150%] text-text-primary'>Starter</h2>
+                    <p className='text-lg font-normal leading-[150%] text-text-secondary'>
+                      Great for personal use and for your side projects.
+                    </p>
+                  </div>
+                  <div className='flex items-center justify-center'>
+                    <h3 className='text-5xl font-extrabold leading-[48px] text-text-primary'>$49</h3>
+                    <span className='text-lg font-medium leading-[150%] text-text-secondary'>/month</span>
+                  </div>
+                  <div className='space-y-5'>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <Button className='w-full'>Get Started</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='w-[400px] border border-gray-200 rounded-lg shadow-md'>
+              <div className='p-8'>
+                <div className='text-center flex flex-col gap-8'>
+                  <div>
+                    <h2 className='text-2xl font-semibold leading-[150%] text-text-primary'>Starter</h2>
+                    <p className='text-lg font-normal leading-[150%] text-text-secondary'>
+                      Great for personal use and for your side projects.
+                    </p>
+                  </div>
+                  <div className='flex items-center justify-center'>
+                    <h3 className='text-5xl font-extrabold leading-[48px] text-text-primary'>$49</h3>
+                    <span className='text-lg font-medium leading-[150%] text-text-secondary'>/month</span>
+                  </div>
+                  <div className='space-y-5'>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <Button className='w-full'>Get Started</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='w-[400px] border border-gray-200 rounded-lg shadow-md'>
+              <div className='p-8'>
+                <div className='text-center flex flex-col gap-8'>
+                  <div>
+                    <h2 className='text-2xl font-semibold leading-[150%] text-text-primary'>Starter</h2>
+                    <p className='text-lg font-normal leading-[150%] text-text-secondary'>
+                      Great for personal use and for your side projects.
+                    </p>
+                  </div>
+                  <div className='flex items-center justify-center'>
+                    <h3 className='text-5xl font-extrabold leading-[48px] text-text-primary'>$49</h3>
+                    <span className='text-lg font-medium leading-[150%] text-text-secondary'>/month</span>
+                  </div>
+                  <div className='space-y-5'>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                    <div className='flex items-center gap-2'>
+                      <Image src={'/check1.png'} width={20} height={20} alt='check' />
+                      <p className='text-base font-normal leading-[150%] text-text-primary'>
+                        Individual configuration
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <Button className='w-full'>Get Started</Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       {/*faq Section */}
