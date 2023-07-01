@@ -136,28 +136,29 @@ export default function Home() {
             </div>
           </div>
           <div className='flex-1 '>
-            <div className='flex flex-wrap gap-5'>
+            <div className='flex items-start flex-wrap gap-8'>
+              <div className='w-[256px]'>
+                <Image src={'/server.png'} width={48} height={48} alt='icons' className='mb-4' />
+                <h3 className='text-2xl font-bold leading-[125%] text-text-primary mb-2'>99.99% uptime</h3>
+                <p className='text-base font-light leading-[150%] text-text-secondary'>for Flowbite, with zero maintenance downtime</p>
+              </div>
+              <div className='w-[256px]'>
+                <Image src={'/server.png'} width={48} height={48} alt='icons' className='mb-4' />
+                <h3 className='text-2xl font-bold leading-[125%] text-text-primary mb-2'>99.99% uptime</h3>
+                <p className='text-base font-light leading-[150%] text-text-secondary'>for Flowbite, with zero maintenance downtime</p>
+              </div>
+              <div className='w-[256px]'>
+                <Image src={'/server.png'} width={48} height={48} alt='icons' className='mb-4' />
+                <h3 className='text-2xl font-bold leading-[125%] text-text-primary mb-2'>99.99% uptime</h3>
+                <p className='text-base font-light leading-[150%] text-text-secondary'>for Flowbite, with zero maintenance downtime</p>
+              </div>
+              <div className='w-[256px]'>
+                <Image src={'/server.png'} width={48} height={48} alt='icons' className='mb-4' />
+                <h3 className='text-2xl font-bold leading-[125%] text-text-primary mb-2'>99.99% uptime</h3>
+                <p className='text-base font-light leading-[150%] text-text-secondary'>for Flowbite, with zero maintenance downtime</p>
+              </div>
 
-              <div>
-                <Image src={'/server.png'} width={48} height={48} alt='icons' className='mb-4' />
-                <h3 className='text-2xl font-bold leading-[125%] text-text-primary mb-2'>99.99% uptime</h3>
-                <p className='text-base font-light leading-[150%] text-text-secondary'>for Flowbite, with zero maintenance downtime</p>
-              </div>
-              <div>
-                <Image src={'/server.png'} width={48} height={48} alt='icons' className='mb-4' />
-                <h3 className='text-2xl font-bold leading-[125%] text-text-primary mb-2'>99.99% uptime</h3>
-                <p className='text-base font-light leading-[150%] text-text-secondary'>for Flowbite, with zero maintenance downtime</p>
-              </div>
-              <div>
-                <Image src={'/server.png'} width={48} height={48} alt='icons' className='mb-4' />
-                <h3 className='text-2xl font-bold leading-[125%] text-text-primary mb-2'>99.99% uptime</h3>
-                <p className='text-base font-light leading-[150%] text-text-secondary'>for Flowbite, with zero maintenance downtime</p>
-              </div>
-              <div>
-                <Image src={'/server.png'} width={48} height={48} alt='icons' className='mb-4' />
-                <h3 className='text-2xl font-bold leading-[125%] text-text-primary mb-2'>99.99% uptime</h3>
-                <p className='text-base font-light leading-[150%] text-text-secondary'>for Flowbite, with zero maintenance downtime</p>
-              </div>
+
             </div>
           </div>
         </div>
