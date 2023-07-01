@@ -135,7 +135,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='flex-1 flex md:flex-wrap gap-5'>
+          <div className='flex-1 flex flex-wrap'>
             <div>
               <Image src={'/server.png'} width={48} height={48} alt='icons' className='mb-4' />
               <h3 className='text-2xl font-bold leading-[125%] text-text-primary mb-2'>99.99% uptime</h3>
@@ -181,7 +181,7 @@ export default function Home() {
             <h2 className='text-4xl font-extrabold leading-[125%] -tracking-[0.36px] text-text-primary'>Pay as you grow</h2>
             <p className='text-xl font-normal leading-[150%] text-text-secondary w-[768px] text-center'>Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
           </div>
-          <div className='flex gap-10'>
+          <div className='w-full flex justify-between gap-10'>
             <div className='w-[400px] border border-gray-200 rounded-lg shadow-md'>
               <div className='p-8'>
                 <div className='text-center flex flex-col gap-8'>
