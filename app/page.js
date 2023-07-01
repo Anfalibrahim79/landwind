@@ -108,7 +108,7 @@ export default function Home() {
       </section>
       {/*Social Proof Section */}
       <section className='h-[524px]'>
-        <div className='min-w-full py-24 flex gap-24'>
+        <div className='w-full py-24 flex gap-24'>
           <div className='flex-1'>
             <h3 className='text-lg font-medium leading-[18px] text-purple-600'>
               Trusted Worldwide
@@ -176,7 +176,7 @@ export default function Home() {
       </section>
       {/*pricing Section */}
       <section>
-        <div className='p-24 h-[920px]'>
+        <div className='w-full p-24 h-[920px]'>
           <div className='flex flex-col items-center gap-4 mb-12'>
             <h2 className='text-4xl font-extrabold leading-[125%] -tracking-[0.36px] text-text-primary'>Pay as you grow</h2>
             <p className='text-xl font-normal leading-[150%] text-text-secondary w-[768px] text-center'>Here at flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
