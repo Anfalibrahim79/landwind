@@ -107,8 +107,8 @@ export default function Home() {
         </div>
       </section>
       {/*Social Proof Section */}
-      <section className='h-[524px]'>
-        <div className='w-full py-24 flex gap-24'>
+      <section className=''>
+        <div className='w-full h-[524px] py-24 flex gap-24'>
           <div className='flex-1'>
             <h3 className='text-lg font-medium leading-[18px] text-purple-600'>
               Trusted Worldwide
@@ -136,7 +136,7 @@ export default function Home() {
             </div>
           </div>
           <div className='flex-1 '>
-            <div className='flex items-start flex-wrap gap-8'>
+            <div className='flex flex-wrap gap-8'>
               <div className='w-[256px]'>
                 <Image src={'/server.png'} width={48} height={48} alt='icons' className='mb-4' />
                 <h3 className='text-2xl font-bold leading-[125%] text-text-primary mb-2'>99.99% uptime</h3>
